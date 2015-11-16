@@ -1,0 +1,2 @@
+docker run -d -p 2223:22 -v /media:/media androidbftab1/bf-build-cm:cm-12.1
+docker run -it -v /media:/media androidbftab1/bf-build-cm:cm-12.1 bash
