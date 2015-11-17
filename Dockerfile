@@ -69,6 +69,7 @@ RUN apt-get install -y bc
 RUN apt-get install -y u-boot-tools
 RUN apt-get install -y device-tree-compiler
 RUN apt-get install -y gawk
+RUN apt-get install -y busybox-static
 
 RUN dpkg --add-architecture i386
 RUN apt-get update
